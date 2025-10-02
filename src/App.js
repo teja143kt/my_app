@@ -7,6 +7,9 @@ import About from './components/Aboutme'
 import Education from './components/Education';
 import Skills from './components/Skills';
 import Resister from './components/Resister';
+import Card from './components/Card';
+
+
 // Put any other imports below so that CSS from your
 // components takes precedence over default styles.
 
@@ -19,6 +22,7 @@ function App() {
       <About/>
       <Education/>
       <Skills/>
+      <Card/>
       <Resister/>
       <Footer />
     </div>
