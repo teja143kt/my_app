@@ -1,5 +1,6 @@
 import React from 'react'
 import profile from "../images/profile.jpeg"
+import { hover } from '@testing-library/user-event/dist/hover';
 
 function Aboutme() {
     return (
@@ -17,13 +18,14 @@ function Aboutme() {
                         that were functional, intuitive, and solved real-world problems.</p>
                 </div>
                 <div class="col-md-4 text-center ">
-                    <img src={profile} alt="profile" class="img-fluid  shadow-lg"
+                    <img src={profile} alt="profile" class="img-fluid  shadow-lg" id='img'
                         style={{
                             width: '300px',
                             height: '320px',
                             objectPosition: 'top',
                             objectFit: 'cover',
-                            border: '3px solid #24cdef9a',
+                            borderRadius: '10px',
+                            // border: '3px solid #24cdef9a',
                             borderRadius: '10px'
                         }} />
                 </div>

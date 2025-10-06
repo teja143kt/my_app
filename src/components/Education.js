@@ -5,7 +5,7 @@ function Education() {
     <div>
       <div class=" p-4 p-md-5 rounded">
         <h3 class="text-center mb-3">Education</h3>
-        <table class="table table-bordered table-hover text-center mb-0">
+        <table class="table table-bordered table-hover text-center mb-0 bg-white p-4">
             <thead class="table-dark">
                 <tr>
                     <th>no</th>
