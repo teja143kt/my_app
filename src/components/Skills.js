@@ -3,7 +3,7 @@ import React from 'react'
 function Skills() {
     return (
         <div>
-            <div class="container bg-white p-4 p-md-5 rounded shadow-sm">
+            <div class="container bg-white p-4 p-md-5 mt-5 rounded shadow-sm">
                 <h2 class="text-center mb-4">My Skills</h2>
                 <div class="row">
                     <div class="col-md-6">

@@ -1,6 +1,6 @@
 import React from 'react'
 import profile from "../images/profile.jpeg"
-import { hover } from '@testing-library/user-event/dist/hover';
+// import { hover } from '@testing-library/user-event/dist/hover';
 
 function Aboutme() {
     return (
@@ -25,13 +25,12 @@ function Aboutme() {
                             objectPosition: 'top',
                             objectFit: 'cover',
                             borderRadius: '10px',
-                            // border: '3px solid #24cdef9a',
-                            borderRadius: '10px'
+                            // // border: '3px solid #24cdef9a',
+                            // borderRadius: '10px'
                         }} />
                 </div>
             </div>
         </div>
-
     )
 }
 
